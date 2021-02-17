@@ -87,7 +87,7 @@ function* App() {
 
   while (true) {
     yield (
-      <Fragment>
+      <section class="w-80 center">
         <p class="lh-copy">
           Brunch, Express, Crank, and Tachyons
           <div class="tr ma2">
@@ -100,7 +100,7 @@ function* App() {
             />
           </div>
         </p>
-      </Fragment>
+      </section>
     );
   }
 }
