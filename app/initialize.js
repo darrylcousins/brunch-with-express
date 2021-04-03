@@ -38,7 +38,20 @@ async function* TextButton({ text }) {
 function TextParagraph() {
   return (
     <p class="lh-copy">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <ul class="list">
+        <li>
+        <a href="" class="link">brunch.io</a> for the build pipeline.
+        </li>
+        <li>
+        <a href="" class="link">crank.js</a> for the javascript.
+        </li>
+        <li>
+        <a href="" class="link">express.js</a> to serve the files.
+        </li>
+        <li>
+        <a href="" class="link">tachyons.css</a> to make it legible.
+        </li>
+    </ul>
     </p>
   );
 };
@@ -111,10 +124,10 @@ function* App() {
 
   while (true) {
     yield (
-      <section class="w-100 center">
+      <section class="w-100 center mt5">
         <p class="lh-copy b">
           Brunch, Express, Crank, and Tachyons
-          <div class="tr ma2">
+          <div class="tc ma2">
             <TextButton
               text={
                 count === 0
