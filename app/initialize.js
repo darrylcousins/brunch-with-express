@@ -6,7 +6,7 @@
  * @module app/initialize
  */
 import "regenerator-runtime/runtime"; // regeneratorRuntime error
-import { isElement, createElement, Fragment } from "@bikeshaving/crank/cjs";
+import { createElement } from "@bikeshaving/crank/cjs";
 import { renderer } from "@bikeshaving/crank/cjs/dom";
 
 import CollapseWrapper from "./collapse-animator";

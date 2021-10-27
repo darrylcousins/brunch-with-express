@@ -22,7 +22,15 @@ exports.npm = {
 
 exports.plugins = {
   babel: {
-    babelrc: true
+    presets: [
+      ['@babel/preset-env',
+        {
+          "targets": "defaults",
+          "modules": "auto",
+        }
+      ],
+      '@babel/preset-react'
+    ]
   },
   sass: {
     options: {

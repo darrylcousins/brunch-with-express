@@ -11,18 +11,16 @@
     "docs": "node_modules/.bin/jsdoc --configure jsdoc.json --verbose"
   },
   "dependencies": {
-    "@bikeshaving/crank": "^0.3.6",
+    "@bikeshaving/crank": "^0.3.11",
     "regenerator-runtime": "^0.13.7",
     "tachyons": "^4.12.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.12.13",
-    "@babel/eslint-plugin": "^7.12.13",
-    "@babel/preset-env": "^7.12.13",
-    "@babel/preset-react": "^7.12.13",
-    "babel": "^6.23.0",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
     "babel-brunch": "^7.0.1",
     "body-parser": "^1.19.0",
+    "brunch": "^4.0.0",
     "clean-css-brunch": "^3.0.0",
     "ejs": "^3.1.6",
     "eslint": "^7.19.0",
